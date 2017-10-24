@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@color/primary_light"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/buttonCal"
+            android:text="@string/numberOne">
+        </Button>
+
+        <Button
+            style="@style/buttonCal"
+            android:text="@string/numberTwo"
+            />
+        <Button
+            style="@style/buttonCal"
+            android:text="@string/numberThree"
+            />
+        <Button
+            style="@style/buttonCal"
+            android:text="/"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/buttonCal"
+            android:text="@string/numberFour"
+            />
+
+        <Button
+            style="@style/buttonCal"
+            android:text="@string/numberFive"
+            />
+        <Button
+            style="@style/buttonCal"
+            android:text="@string/numberSix"
+            />
+        <Button
+            style="@style/buttonCal"
+            android:text="@string/numberPor"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/buttonCal"
+            android:text="@string/numberSeven"
+
+            />
+
+        <Button
+            style="@style/buttonCal"
+            android:text="@string/numberEight"
+
+            />
+        <Button
+            style="@style/buttonCal"
+            android:text="@string/numberNine"
+            />
+        <Button
+            style="@style/buttonCal"
+            android:text="@string/numberMenos"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/buttonCal"
+
+            android:text="@string/numberZero"
+            />
+
+        <Button
+            style="@style/buttonCal"
+            android:text="@string/numberPoint"
+            />
+        <Button
+            style="@style/buttonCal"
+
+            android:text="@string/numberSum"
+            />
+        <Button
+            style="@style/buttonCal"
+            android:text="@string/numberIgual"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
